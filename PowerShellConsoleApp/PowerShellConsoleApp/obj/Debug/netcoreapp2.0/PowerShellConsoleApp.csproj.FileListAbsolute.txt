@@ -1,0 +1,11 @@
+D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\bin\Debug\netcoreapp2.0\PowerShellConsoleApp.deps.json
+D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\bin\Debug\netcoreapp2.0\PowerShellConsoleApp.runtimeconfig.json
+D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\bin\Debug\netcoreapp2.0\PowerShellConsoleApp.runtimeconfig.dev.json
+D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\bin\Debug\netcoreapp2.0\PowerShellConsoleApp.dll
+D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\obj\Debug\netcoreapp2.0\PowerShellConsoleApp.csprojResolveAssemblyReference.cache
+D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\obj\Debug\netcoreapp2.0\PowerShellConsoleApp.csproj.CoreCompileInputs.cache
+D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\obj\Debug\netcoreapp2.0\PowerShellConsoleApp.AssemblyInfoInputs.cache
+D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\obj\Debug\netcoreapp2.0\PowerShellConsoleApp.AssemblyInfo.cs
+D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\bin\Debug\netcoreapp2.0\PowerShellConsoleApp.pdb
+D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\obj\Debug\netcoreapp2.0\PowerShellConsoleApp.dll
+D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\obj\Debug\netcoreapp2.0\PowerShellConsoleApp.pdb
