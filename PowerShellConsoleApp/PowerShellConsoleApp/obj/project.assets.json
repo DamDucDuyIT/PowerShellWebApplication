@@ -182,6 +182,18 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.PowerShell.CoreCLR.Eventing/6.0.0-beta.9": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.4.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/Microsoft.PowerShell.CoreCLR.Eventing.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Microsoft.PowerShell.CoreCLR.Eventing.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -197,13 +209,26 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "System.Management.Automation_PowerShell_3.0/6.3.9600.17400": {
+      "System.Security.Principal.Windows/4.4.0": {
         "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        },
         "compile": {
-          "lib/net40/System.Management.Automation.dll": {}
+          "ref/netstandard2.0/System.Security.Principal.Windows.dll": {}
         },
         "runtime": {
-          "lib/net40/System.Management.Automation.dll": {}
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       }
     }
@@ -538,6 +563,17 @@
         "version.txt"
       ]
     },
+    "Microsoft.PowerShell.CoreCLR.Eventing/6.0.0-beta.9": {
+      "sha512": "S0LOxn0FMJL9s8fZBcC78UuPEAeYFzIqOYnzCG5S17VomsrSsDu9juZrVvKbu72sEg4LKZUfS7JaR6amrlGJBQ==",
+      "type": "package",
+      "path": "microsoft.powershell.coreclr.eventing/6.0.0-beta.9",
+      "files": [
+        "lib/netcoreapp2.0/Microsoft.PowerShell.CoreCLR.Eventing.dll",
+        "lib/netcoreapp2.0/Microsoft.PowerShell.CoreCLR.Eventing.xml",
+        "microsoft.powershell.coreclr.eventing.6.0.0-beta.9.nupkg.sha512",
+        "microsoft.powershell.coreclr.eventing.nuspec"
+      ]
+    },
     "NETStandard.Library/2.0.0": {
       "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
       "type": "package",
@@ -666,21 +702,49 @@
         "netstandard.library.nuspec"
       ]
     },
-    "System.Management.Automation_PowerShell_3.0/6.3.9600.17400": {
-      "sha512": "u+lG9fj/fis56ip8wA3fluZ2GYaLr8bttxaS6ffDK5OGbwMzB7WzZr2E6TaRwgei57xxnXmCbvzXYzE3iap5kA==",
+    "System.Security.Principal.Windows/4.4.0": {
+      "sha512": "pP+AOzt1o3jESOuLmf52YQTF7H3Ng9hTnrOESQiqsnl2IbBh1HInsAMHYtoh75iUYV0OIkHmjvveraYB6zM97w==",
       "type": "package",
-      "path": "system.management.automation_powershell_3.0/6.3.9600.17400",
+      "path": "system.security.principal.windows/4.4.0",
       "files": [
-        "lib/net40/System.Management.Automation.dll",
-        "system.management.automation_powershell_3.0.6.3.9600.17400.nupkg.sha512",
-        "system.management.automation_powershell_3.0.nuspec"
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "system.security.principal.windows.4.4.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NETCore.App >= 2.0.0",
-      "System.Management.Automation_PowerShell_3.0 >= 6.3.9600.17400"
+      "Microsoft.PowerShell.CoreCLR.Eventing >= 6.0.0-beta.9"
     ]
   },
   "packageFolders": {
@@ -727,14 +791,14 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.PowerShell.CoreCLR.Eventing": {
+            "target": "Package",
+            "version": "6.0.0-beta.9"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
-          },
-          "System.Management.Automation_PowerShell_3.0": {
-            "target": "Package",
-            "version": "6.3.9600.17400"
           }
         },
         "imports": [
@@ -744,17 +808,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Management.Automation_PowerShell_3.0 6.3.9600.17400' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "System.Management.Automation_PowerShell_3.0",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

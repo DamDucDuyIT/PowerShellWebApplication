@@ -8,8 +8,8 @@ namespace PowerShellConsoleApp
     {
         static void Main(string[] args)
         {
-            string text = System.IO.File.ReadAllText(@"C:\Program Files (x86)\Backup Reporter\Required\edit_website.ps1");
-
+            //string text = System.IO.File.ReadAllText(@"D:\ps1.ps1");
+            string text = "get-process";
             using (PowerShell PowerShellInstance = PowerShell.Create())
             {
                 // use "AddScript" to add the contents of a script file to the end of the execution pipeline.
@@ -23,7 +23,7 @@ namespace PowerShellConsoleApp
                     // object may be present here. check for null to prevent potential NRE.
                     if (outputItem != null)
                     {
-                        Console.WriteLine(outputItem.BaseObject.ToString() + "\n");
+                        Console.WriteLine(outputItem.ToString() + "\n");
                     }
                 }
                 if (PowerShellInstance.Streams.Error.Count > 0)
