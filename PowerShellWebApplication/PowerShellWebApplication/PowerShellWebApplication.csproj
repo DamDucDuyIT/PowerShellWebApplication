@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
     <UserSecretsId>aspnet-PowerShellWebApplication-9DC5397F-3363-4060-A95C-CC2027F31F69</UserSecretsId>
   </PropertyGroup>
 
@@ -9,8 +10,15 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.PowerShell.Commands.Diagnostics" Version="6.0.0-rc" />
+    <PackageReference Include="Microsoft.PowerShell.SDK" Version="6.0.0-rc" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.WSMan.Management" Version="6.0.0-rc" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.4.0" />
+    <PackageReference Include="System.Management.Automation" Version="6.0.0-rc" />
+
   </ItemGroup>
+
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />

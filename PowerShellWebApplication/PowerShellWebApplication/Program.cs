@@ -7,6 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using System.Reflection;
 
 namespace PowerShellWebApplication
 {
@@ -14,6 +15,7 @@ namespace PowerShellWebApplication
     {
         public static void Main(string[] args)
         {
+
             BuildWebHost(args).Run();
         }
 
