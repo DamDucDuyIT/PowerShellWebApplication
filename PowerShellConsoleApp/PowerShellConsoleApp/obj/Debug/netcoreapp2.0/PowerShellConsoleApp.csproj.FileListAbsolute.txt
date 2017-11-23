@@ -53,3 +53,4 @@ D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConso
 D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\bin\Debug\netcoreapp2.0\Microsoft.Management.Infrastructure.CimCmdlets.xml
 D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\bin\Debug\netcoreapp2.0\Microsoft.WSMan.Management.xml
 D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\bin\Debug\netcoreapp2.0\Microsoft.WSMan.Runtime.xml
+D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellConsoleApp\PowerShellConsoleApp\obj\Debug\netcoreapp2.0\PowerShellConsoleApp.csprojResolveAssemblyReference.cache

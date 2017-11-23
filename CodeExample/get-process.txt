@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.ObjectModel;
 using System.Management.Automation;
 
@@ -9,7 +9,7 @@ namespace PowerShellConsoleApp
         static void Main(string[] args)
         {
             //string text = System.IO.File.ReadAllText(@"D:\ps1.ps1");
-            string text = "get-service";
+            string text = "get-process";
             using (PowerShell PowerShellInstance = PowerShell.Create())
             {
                 // use "AddScript" to add the contents of a script file to the end of the execution pipeline.
@@ -24,9 +24,13 @@ namespace PowerShellConsoleApp
                     if (outputItem != null)
                     {
 
+                        Console.Write(outputItem.Members["Handles"].Value + "\t");
+                        Console.Write(outputItem.Members["NPM"].Value + "\t");
+                        Console.Write(outputItem.Members["PM"].Value + "\t");
+                        Console.Write(outputItem.Members["WS"].Value + "\t");
+                        Console.Write(outputItem.Members["SI"].Value + "\t");
+                        Console.Write(outputItem.Members["Id"].Value + "\t");
                         Console.Write(outputItem.Members["Name"].Value + "\t");
-                        Console.Write(outputItem.Members["DisplayName"].Value + "\t");
-                        Console.Write(outputItem.Members["Status"].Value + "\t");
                         Console.Write("\n");
                     }
                 }
