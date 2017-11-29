@@ -1,0 +1,49 @@
+﻿@model ICollection<Firewall>
+<div class="block-header">
+    <h2>
+        FIREWALL PAGE
+
+    </h2>
+</div>
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h2>Firewall Status</h2>
+        <div>
+            @{
+                if (Model.Last().State.Contains("OFF"))
+                {
+                    <a class="btn btn-success waves-effect" asp-action="TurnOn" asp-controller="Firewall">TURN ON</a>
+                }
+                else
+                {
+                    <a class="btn btn-danger waves-effect" asp-action="TurnOff" asp-controller="Firewall">TURN OFF</a>
+
+                }
+            }
+        </div>
+
+        <div class="body">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped table-hover js-basic-example dataTable" id="myTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>State</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var firewall in Model)
+                        {
+                            <tr>
+                                <td>@firewall.Name</td>
+                                <td>@firewall.State</td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
