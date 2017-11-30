@@ -7,9 +7,9 @@ D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellWebApplication\PowerShellW
 D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellWebApplication\PowerShellWebApplication\bin\Debug\netcoreapp2.0\win10-x64\PowerShellWebApplication.dll
 D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellWebApplication\PowerShellWebApplication\bin\Debug\netcoreapp2.0\win10-x64\PowerShellWebApplication.pdb
 D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellWebApplication\PowerShellWebApplication\obj\Debug\netcoreapp2.0\win10-x64\PowerShellWebApplication.csproj.CoreCompileInputs.cache
-D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellWebApplication\PowerShellWebApplication\obj\Debug\netcoreapp2.0\win10-x64\UserSecretsAssemblyInfo.cs
 D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellWebApplication\PowerShellWebApplication\obj\Debug\netcoreapp2.0\win10-x64\PowerShellWebApplication.AssemblyInfoInputs.cache
 D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellWebApplication\PowerShellWebApplication\obj\Debug\netcoreapp2.0\win10-x64\PowerShellWebApplication.AssemblyInfo.cs
 D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellWebApplication\PowerShellWebApplication\obj\Debug\netcoreapp2.0\win10-x64\PowerShellWebApplication.dll
 D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellWebApplication\PowerShellWebApplication\obj\Debug\netcoreapp2.0\win10-x64\PowerShellWebApplication.pdb
 D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellWebApplication\PowerShellWebApplication\obj\Debug\netcoreapp2.0\win10-x64\PowerShellWebApplication.csprojResolveAssemblyReference.cache
+D:\HelpHoang\PowerShellWebApplication\trunk\PowerShellWebApplication\PowerShellWebApplication\obj\Debug\netcoreapp2.0\win10-x64\UserSecretsAssemblyInfo.cs

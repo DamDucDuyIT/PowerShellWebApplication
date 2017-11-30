@@ -1,8 +1,8 @@
-﻿@model ICollection<Service>
+﻿@model SystemInformation
 
 <div class="block-header">
     <h2>
-        SERVICE PAGE
+        INFORMATION PAGE
 
     </h2>
 </div>
@@ -12,7 +12,7 @@
         <div class="card">
             <div class="header">
                 <h2>
-                    SERVICES
+                    Model INFORMATION
                 </h2>
                 <ul class="header-dropdown m-r--5">
                     <li class="dropdown">
@@ -32,30 +32,33 @@
                     <table class="table table-bordered table-striped table-hover js-basic-example dataTable" id="myTable">
                         <thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Display Name</th>
-                                <th>Status</th>
-                                <th></th>
+                                <th>Computer Name</th>
+                                <th>Manufacturer</th>
+                                <th>Model</th>
+                                <th>Serial Number</th>
+                                <th>CPU</th>
+                                <th>HDD Capacity</th>
+                                <th>HDD Space</th>
+                                <th>RAM</th>
+                                <th>Operating System</th>
+                                <th>User logged In</th>s
+                                <th>Last Reboot</th>
                             </tr>
                         </thead>
-                        <tfoot>
-                            <tr>
-                                <th>Name</th>
-                                <th>Display Name</th>
-                                <th>Status</th>
-                                <th></th>
-                            </tr>
-                        </tfoot>
                         <tbody>
-                            @foreach (var service in Model)
-                            {
-                                <tr>
-                                    <td>@service.Name</td>
-                                    <td>@service.DisplayName</td>
-                                    <td>@service.Status</td>
-                                    <td><a class=" btn btn-danger" asp-action="StopService" asp-route-servicename=@service.Name>Stop</a></td>
-                                </tr>
-                            }
+                            <tr>
+                                <td>@Model.Computer_Name</td>
+                                <td>@Model.Manufacturer</td>
+                                <td>@Model.Model</td>
+                                <td>@Model.Serial_Number</td>
+                                <td>@Model.CPU</td>
+                                <td>@Model.HDD_Capacity</td>
+                                <td>@Model.HDD_Space</td>
+                                <td>@Model.RAM</td>
+                                <td>@Model.Operating_System</td>
+                                <td>@Model.User_logged_In</td>
+                                <td>@Model.Last_Reboot</td>
+                            </tr>
 
                         </tbody>
                     </table>
