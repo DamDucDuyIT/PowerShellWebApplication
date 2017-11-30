@@ -59,6 +59,21 @@ namespace PowerShellWebApplication.Controllers
             return RedirectToAction("Index");
         }
 
+        public ActionResult StartService(string servicename)
+        {
+            string text = "Start-Service -Name " + servicename;
+            using (PowerShell PowerShellInstance = PowerShell.Create())
+            {
+                // use "AddScript" to add the contents of a script file to the end of the execution pipeline.
+                // use "AddCommand" to add individual commands/cmdlets to the end of the execution pipeline.
+                PowerShellInstance.AddScript(text);
+
+                var PSOutput = PowerShellInstance.Invoke();
+
+            }
+            return RedirectToAction("Index");
+        }
+
         // GET: Service/Details/5
         public ActionResult Details(int id)
         {
