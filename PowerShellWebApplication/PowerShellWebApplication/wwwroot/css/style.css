@@ -1,6 +1,19 @@
 ﻿/* Navbar ====================================== */
 @import url(materialize.css);
 
+.powerbutton {
+    line-height: 12px;
+    width: 18px;
+    font-size: 8pt;
+    font-family: tahoma;
+    padding-top: 3px;
+    margin-top: 1px;
+    margin-right: 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .navbar {
     font-family: "Roboto", sans-serif;
     -webkit-border-radius: 0;
@@ -10109,7 +10122,7 @@ fieldset[disabled] .form-control {
         white-space: nowrap;
         position: relative;
         border-bottom: 1px solid #e9e9e9;
-        background: url("../images/user-img-background.jpg") no-repeat no-repeat;
+        background: url("../") no-repeat no-repeat;
         height: 135px;
     }
 
