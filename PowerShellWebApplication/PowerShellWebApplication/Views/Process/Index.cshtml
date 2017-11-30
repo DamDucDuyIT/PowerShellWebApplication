@@ -39,6 +39,7 @@
                                 <th>PM</th>
                                 <th>NPM</th>
                                 <th>Handles</th>
+                                <th></th>
                             </tr>
                         </thead>
                         <tfoot>
@@ -50,6 +51,7 @@
                                 <th>PM</th>
                                 <th>NPM</th>
                                 <th>Handles</th>
+                                <th></th>
                             </tr>
                         </tfoot>
                         <tbody>
@@ -63,6 +65,7 @@
                                     <td>@process.PM</td>
                                     <td>@process.NPM</td>
                                     <td>@process.Handles</td>
+                                    <td><a class=" btn btn-danger" asp-action="StopProcess" asp-route-processname=@process.Name>Stop</a></td>
                                 </tr>
                             }
 
